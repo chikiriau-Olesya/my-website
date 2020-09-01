@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap');
+
+body {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+    font-size: 86px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: #0020D7;
+    border-radius: 90px;
+    padding: 24px;
+    margin: 0;
+}
+
+h1:hover {
+    background: #E31D7C;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 15%;
+}
+
+.me {
+    margin-right: 70px;
+}
+
+.hi {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: none;
+}
+
+.content:hover .hi {
+    display: block;
+}
+
+.textblock {
+    width: 480px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.links {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: 36px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #E31D7C;
+    border-radius: 30px;
+    padding: 5px 30px;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color:#0B8E45;
+}
+
+.circle {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation: circle 20s linear infinite;
+}
+
+.circle:hover {
+    background-color: #0020D7;;
+}
+
+@keyframes circle {
+    0% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
