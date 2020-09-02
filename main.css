@@ -9,11 +9,6 @@ body {
     overflow-x: hidden;
 }
 
-.wrapper {
-    margin: 0 auto;
-    position: relative;
-}
-
 h1 {
     font-size: 86px;
     font-weight: 400;
